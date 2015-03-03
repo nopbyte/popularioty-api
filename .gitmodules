@@ -1,0 +1,6 @@
+[submodule "popularioty-public-api"]
+	path = popularioty-public-api
+	url = git://github.com/nopbyte/popularioty-public-api
+[submodule "popularioty-commons"]
+	path = popularioty-commons
+	url = git://github.com/nopbyte/popularioty-commons
