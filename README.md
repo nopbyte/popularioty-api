@@ -22,6 +22,8 @@ This is a project referencing the popularioty-commons and the web application fo
 To get the code run: 
 
 	$ git clone 
+	$ cd popularioty-api
+	$ git submodule update --init --recursive
 	
 
 
