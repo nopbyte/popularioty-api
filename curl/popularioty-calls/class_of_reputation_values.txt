@@ -3,7 +3,7 @@
 id="service_instance1"
 type="service_instance"
 class="activity"
-url=http://localhost:8080
+url=http://localhost:9080
 #url=http://132.231.11.217:8080/popularioty-api
 
 

@@ -2,8 +2,8 @@
 
 id="service_instance1"
 type="service_instance"
-#url=http://localhost:8080
-url=http://132.231.11.217:8080/popularioty-api
+url=http://localhost:9080
+#url=http://132.231.11.217:8080/popularioty-api
 
 curl -XGET "$url/$type/$id/feedback/?from=0&size=10"
 
