@@ -6,3 +6,10 @@ url=http://localhost:9080
 
 curl -XGET "$url/feedback/$feedback_id/meta/?from=0&size=10"
 
+id="service_instance1"
+type="service_instance"
+url=http://localhost:8090
+#url=http://132.231.11.217:8080/popularioty-api
+
+curl -XPOST  -H "Content-Type: application/json;charset=UTF-8"  -H "Authorization: Bearer $TOKEN"   -d '{"title":"asdf","text":"interesting stuff","rating":4}' "$url/feedback/$f_id/meta_feedback/"
+

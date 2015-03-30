@@ -1,0 +1,2 @@
+curl   -H "Content-Type: application/json;charset=UTF-8" -d '{"username":"test2","password":"pass"}' -X POST http://132.231.11.217:8080/auth/user/
+
