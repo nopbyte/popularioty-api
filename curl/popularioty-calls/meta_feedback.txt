@@ -1,6 +1,6 @@
 #!/bin/bash
 
-feedback_id="1422463673002737210"
+feedback_id="1431706366419eeb49924bdc743e2b9e93581bbd4ab111431707256311"
 url=http://localhost:9080
 #url=http://132.231.11.217:8080/popularioty-api
 
@@ -8,8 +8,6 @@ curl -XGET "$url/feedback/$feedback_id/meta/?from=0&size=10"
 
 id="service_instance1"
 type="service_instance"
-url=http://localhost:8090
-#url=http://132.231.11.217:8080/popularioty-api
 
-curl -XPOST  -H "Content-Type: application/json;charset=UTF-8"  -H "Authorization: Bearer $TOKEN"   -d '{"title":"asdf","text":"interesting stuff","rating":true}' "$url/feedback/$f_id/meta_feedback/"
+curl -XPOST  -H "Content-Type: application/json;charset=UTF-8"  -H "Authorization: Bearer $TOKEN"   -d '{"title":"asdf","text":"interesting stuff","rating":true}' "$url/feedback/$feedback_id/meta_feedback/"
 
